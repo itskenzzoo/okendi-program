@@ -23,6 +23,9 @@
 # misc
 .DS_Store
 *.pem
+Thumbs.db
+db.lock
+*.tmp
 
 # debug
 npm-debug.log*
@@ -39,3 +42,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Editor/IDE configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
